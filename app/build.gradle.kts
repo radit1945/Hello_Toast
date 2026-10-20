@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "lat.pam.droidcafe"
+    namespace = "lat.pam.desertrecycleview"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "lat.pam.droidcafe"
+        applicationId = "lat.pam.desertrecycleview"
         minSdk = 27
         targetSdk = 37
         versionCode = 1

@@ -7,13 +7,13 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="DessertRecycleView"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DroidCafe">
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
 
         <activity
-            android:name="lat.pam.droidcafe.MainActivity"
+            android:name="lat.pam.desertrecycleview.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,14 +23,9 @@
         </activity>
 
         <activity
-            android:name="lat.pam.droidcafe.OrderActivity"
+            android:name="lat.pam.desertrecycleview.SampleActivity"
             android:exported="false"
-            android:label="@string/order_label"
-            android:parentActivityName="lat.pam.droidcafe.MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="lat.pam.droidcafe.MainActivity" />
-        </activity>
+            android:label="RecyclerViewSample" />
 
     </application>
 
